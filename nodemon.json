@@ -1,0 +1,10 @@
+{
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "exec": "ts-node -r tsconfig-paths/register ./src/main.ts",
+  "ext": ".ts",
+  "ignore": [".git", "node_modules/", "build/"],
+  "verbose": true,
+  "watch": ["src/"]
+}
