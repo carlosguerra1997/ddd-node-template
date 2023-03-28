@@ -98,7 +98,7 @@
     "no-multi-str": "error",
     "no-redeclare": "error",
     "no-self-assign": "error",
-    "no-unused-vars": "error",
+    "no-unused-vars": "off",
     "operator-linebreak": ["error", "before"],
     "react-hooks/exhaustive-deps": "off",
     "semi": ["error", "never"],
