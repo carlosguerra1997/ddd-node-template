@@ -1,11 +1,11 @@
 import DEV from '@config/environments/dev'
 import { EnvConfiguration } from '@config/EnvConfiguration'
 
-const { NODE_ENV } = process.env
+const { NODE_ENVIRONMENT } = process.env
 
 let currentConfig: EnvConfiguration
 
-switch (NODE_ENV) {
+switch (NODE_ENVIRONMENT) {
 default:
   currentConfig = DEV
 }

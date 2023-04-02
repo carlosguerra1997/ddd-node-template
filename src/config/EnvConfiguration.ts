@@ -1,4 +1,4 @@
 export interface EnvConfiguration {
-  NODE_ENV: string
+  NODE_ENVIRONMENT: string
   PORT: number
 }
