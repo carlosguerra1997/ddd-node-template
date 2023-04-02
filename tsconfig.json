@@ -11,6 +11,7 @@
     "target": "ES6",
     "paths": {
       "@config/*": ["src/config/*"],
+      "@modules/*": ["src/modules/*"],
       "@shared/*": ["src/Shared/*"]
     }
   },
